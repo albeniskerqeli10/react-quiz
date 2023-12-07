@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  padding: 1rem;
+  font-weight: normal;
+  font-family: 'Poppins', sans-serif;
+  background-color: #a5bdd8;
+  color: black;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+} */
+
+.quizWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.quizBox {
+  width: 350px;
+  padding: 15px 10px;
+  max-width: 100%;
+  border-radius: 3px;
+  background-color: #368ff3;
+  border: 2px solid transparent;
+  min-height: 300px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.quizPage {
+  width: 100%;
+  padding: 15px 10px;
+  max-width: 100%;
+  border-radius: 3px;
+  background-color: #368ff3;
+  border: 2px solid transparent;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+input[type='radio'] {
+  margin: 0 auto;
+  content: '';
+  width: 100%;
+  padding: 10px 20px;
+  left: 0;
+  height: 100%;
+  right: 0;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  position: absolute;
+  top: 0;
+  appearance: none;
+  border: 2px solid transparent;
+}
+
+label {
+  padding: 10px 20px;
+  position: relative;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  background-color: white;
+  border-radius: 3px;
+}
+
+h1 {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+input[type='radio']:checked {
+  border: 2px solid black;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  color: white;
+  background-color: #19191b;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.hellopage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.hellopage a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  background-color: #000000;
+}
